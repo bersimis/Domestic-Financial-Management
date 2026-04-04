@@ -1,0 +1,13 @@
+# Domestic Financial Management (OOP)
+
+This repository now includes an object-oriented Python implementation for domestic financial management.
+
+## Included Classes
+- `Transaction`: represents one income or expense event.
+- `Account`: stores transactions and computes balances.
+- `MonthlyBudget`: tracks category limits and remaining budget.
+- `DomesticFinanceManager`: coordinates accounts, records transactions, and generates summary reports.
+
+## Run Tests
+```bash
+python -m unittest discover -s tests
